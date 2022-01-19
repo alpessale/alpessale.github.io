@@ -1,7 +1,9 @@
 #navbar01 a{
 
   color:  rgb(255, 255, 255);
-  padding: 2px;
+margin-left: 4px;
+margin-right: 4px;
+  
 
 
 }
@@ -9,6 +11,6 @@
 #navbar01 a:hover{
  
  
-color: rgb(46, 1, 243);
+color: rgb(1, 243, 231);
 
   }
