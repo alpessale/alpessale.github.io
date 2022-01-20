@@ -1,0 +1,66 @@
+.fab {
+  position: fixed;
+  bottom: 120px;
+  right: 0px;
+  width: 50px;
+
+}
+
+.fab button {
+  cursor: pointer;
+  width: 48px;
+  height: 48px;
+  border-radius: 30px;
+
+  border: none;
+ 
+}
+
+.fab button:focus {
+  outline: none;
+}
+
+.fab button.main {
+  position: absolute;
+  border-radius: 30px;
+  right: 0.5em;
+  bottom: 15em;
+  z-index: 20;
+}
+ 
+.barra-whatsapp p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+font-size: 11pt;
+
+
+}
+
+
+.container-whatsapp{
+  margin-top: -5em;
+  width: 92%
+}
+.container-whatsapp{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+
+.barra-whatsapp img{
+float: left;
+margin-right:1em;
+  width: 35px;
+  padding: 0em;
+
+}
+
+#selecao {
+ cursor: pointer;
+}
