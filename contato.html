@@ -25,6 +25,8 @@
     <link rel="stylesheet" href="assets/css/lightbox.css">
 
     <link rel="stylesheet" href="assets/css/mobilemenu.css">
+
+    <link rel="stylesheet" href="assets/css/botaoFlutuante.css">
 <!--
 
 -
@@ -47,6 +49,11 @@
      ***** Preloader End ***** -->
     
     
+     <div class="">
+
+        <a target="blank" id="selecao" onclick="linkWhatsApp()">
+            <img style="z-index: 1000;" class="fab icone-whats" src="assets/images/whats-icon.png" alt="" srcset=""></a>
+    </div>
     <!-- ***** Header Area Start ***** -->
     <header class="header-area header-sticky"  style="background-color: #000; border: none; position: fixed; transition: none;">
 
@@ -75,7 +82,7 @@
                             <ul>
                                 <li></li>
                                 <li></li>
-                                <li><a href="single-product.html">Single Product</a></li> Em desenvolvimento - Lucas Menchon
+                                <li><a href="contato.html">Single Product</a></li> Em desenvolvimento - Lucas Menchon
                                 <li></li>
                             </ul>
                         </li>
@@ -110,27 +117,30 @@
     <!-- ***** Main Banner Area End ***** -->
 
     <!-- ***** Contact Area Starts ***** -->
-    <div class="section-heading" style="text-align: center;">
-        <h2>Diga Olá. Não seja tímido!</h2>
-        <span>Iremos te passar todos detalhes do que deseja.</span>
-    
-    
-    <br>
-    <br>
-    
-        <ul>
-            <li>Localização da loja:<br><span>São Paulo</span></li>
-            <li>Telefone:<br><span>(11) 99999999</span></li>
-            <li>Localização do escritório:<br><span>São Paulo</span></li>
-        </ul>
-    
-    
-        <ul>
-            <li>Horário de trabalho:<br><span>07:30 - 21:30</span></li>
-            <li>Email:<br><span>alpes.sale@outlook.com</span></li>
-            <li>Redes Sociais:<br><span><a href="#">Facebook</a>, <a href="#">Instagram</a> <a href="#"></a> <a href="#"></a></span></li>
-        </ul>
+
+     <hr>
+     <br>
+     <div  style="text-align: center;">
+         <div class="row">
+             <div class="col-6">
+                 <ul>
+                     <li>Localização da loja:<br><span>  rua tal nª1212,Vila do noé, São Paulo - Brazil</span></li>
+                     <li>Telefone:<br><span>(11) 99999999</span></li>
+                     <li>Localização do escritório:<br><span>rua tal nª1212,Vila do noé, São Paulo - Brazil</span></li>
+                 </ul>
+             </div>
+             <div class="col-6">
+                 <ul>
+                     <li>Horário de trabalho:<br><span>07:30 - 21:30 domingo a domingo</span></li>
+                     <li>Email:<br><span>alpes.sale@outlook.com</span></li>
+                     <li>Redes Sociais<br><span><a href="#">Facebook</a>, <a href="#">Instagram</a> <a href="#"></a> <a href="#"></a></span></li>
+                 </ul>
+             </div>
+         </div>
      </div>
+ </div>
+
+
      <!--<div class="contact-us">
         <div class="container">
             <div class="row">
@@ -288,6 +298,7 @@
     
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
+    <script src="assets/js/botaoFlutuante.js"></script>
 
     <script>
 
