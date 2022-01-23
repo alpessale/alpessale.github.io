@@ -1919,6 +1919,17 @@ About Us Page
   background-repeat: no-repeat;
 }
 
+.sobre-page-heading {
+  margin-top: 160px;
+  margin-bottom: 30px;
+  background-image: url(../images/banner-sobre.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
 .about-us {
   margin-top: 80px;
 }
