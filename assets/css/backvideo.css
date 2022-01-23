@@ -1,11 +1,13 @@
 * {
     box-sizing: border-box;
+    
   }
   
   body {
     margin: 0;
     font-family: Arial;
     font-size: 17px;
+
   }
   
   #myVideo {
@@ -14,6 +16,7 @@
     bottom: 0;
     min-width: 100%; 
     min-height: 100%;
+    
   }
   
   .content {
@@ -33,9 +36,11 @@
     background: #000;
     color: #fff;
     cursor: pointer;
+    
   }
   
   #myBtn:hover {
     background: #ddd;
     color: black;
+    
   }
